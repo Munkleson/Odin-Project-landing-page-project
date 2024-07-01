@@ -1,0 +1,71 @@
+:root {
+    --topBannerWidth: calc(100vw - 600px);
+    --logoWidth: 150px;
+    --pagePadding: 300px;
+}
+
+* {
+    font-family: Roboto;
+
+}
+
+body {
+    margin: 0;
+}
+
+.topBannerContainer{
+    background-color: #1F2937;
+    margin: 0;
+    padding-left: var(--pagePadding);
+    padding-right: var(--pagePadding);
+    display: flex;
+    height: 400px;
+    width: var(--topBannerWidth);
+    /* width: auto; */
+}
+
+.topBannerTopContainer{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.topBannerTopContainerHeaderLogoDiv{
+    align-items: center;
+    display: flex;
+    width: var(--logoWidth);
+    min-width: var(--logoWidth);
+}
+
+.topBannerTopContainerHeaderLogoDivText {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 0;
+}
+
+.topBannerTopContainerRightDivsMainContainer {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 90%;
+    width: calc(100% - var(--logoWidth));
+    overflow: hidden;
+}
+
+.topBannerTopContainerRightDivsSubContainer {
+    align-items: center;
+    display: flex;
+    max-width: 420px;
+    gap: 10px;
+}
+
+.headerTopLinks {
+    width: 110px;
+    color: #E5E7EB;
+    max-width: 130px;
+}
+
+.topBannerMiddleContainer {
+
+}
