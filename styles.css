@@ -1,7 +1,8 @@
 :root {
-    --topBannerWidth: calc(100vw - 600px);
+    --topBannerWidth: calc(100vw - (var(--pagePadding) * 2));
     --logoWidth: 150px;
-    --pagePadding: 300px;
+    /* --pagePadding: 500px; */
+    --pagePadding: 24vw; 
 }
 
 * {
@@ -118,4 +119,43 @@ h1 {
 .topBannerImage {
     max-width: 100%;
     max-height: 100%;
+}
+
+/**/
+
+.randomInformationDiv {
+    height: 350px;
+    padding-left: calc(var(--pagePadding) + 50px);
+    padding-right: calc(var(--pagePadding) + 50px);
+}
+
+
+/**/
+
+.quoteDiv {
+    height: 350px;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: calc(var(--pagePadding) + 70px);
+    padding-right: calc(var(--pagePadding) + 70px);
+}
+
+/**/
+
+.callToActionDiv {
+    height: 300px;
+    padding-left: calc(var(--pagePadding));
+    padding-right: calc(var(--pagePadding));
+}
+
+/**/
+
+.odinCopyrightDiv {
+    height: 100px;
+    background-color: #1F2937;
+    padding-left: calc(var(--pagePadding));
+    padding-right: calc(var(--pagePadding));
 }
