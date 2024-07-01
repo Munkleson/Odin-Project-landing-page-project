@@ -167,6 +167,61 @@ h1 {
     height: 300px;
     padding-left: calc(var(--pagePadding));
     padding-right: calc(var(--pagePadding));
+    display: flex;
+    align-items: center;
+}
+
+.callToActionInnerContentDiv {
+    height: 150px;
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+}
+
+.callToActionLeftSide {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .callToActionLeftSideTextContainer {
+
+} */
+
+.callToActionMainText {
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+
+.callToActionSubText {
+    margin-top: 0;
+    font-weight: lighter;
+    color: #f9faf8;
+}
+
+.callToActionRightSide {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToActionSignUpButton {
+    background-color: #3882F6;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+    height: 30px;
+    padding-bottom: 3px;
 }
 
 /**/
@@ -176,4 +231,8 @@ h1 {
     background-color: #1F2937;
     padding-left: calc(var(--pagePadding));
     padding-right: calc(var(--pagePadding));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
